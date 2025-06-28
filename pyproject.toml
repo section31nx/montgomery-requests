@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "montgomery-requests"
+name = "montgomery_requests"
 version = "0.1.0"
 description = "Drop-in requests replacement using MontgomeryNX proxy"
 authors = [
