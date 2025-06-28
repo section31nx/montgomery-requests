@@ -5,7 +5,7 @@ A drop-in replacement for Python's `requests` that routes all calls through the 
 ## 📦 Installation
 
 ```bash
-pip install montgomery-requests
+pip install montgomery_requests
 ```
 
 ## 🚀 Usage
