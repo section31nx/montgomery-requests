@@ -5,18 +5,18 @@ A drop-in replacement for Python's `requests` that routes all calls through the 
 ## 📦 Installation
 
 ```bash
-pip install montgomery_requests
+pip install mx_requests
 ```
 
 ## 🚀 Usage
-In place of import requests, 
+
+In place of import requests,
 
 ```python
-import montgomery_requests as mrequests
+import mx_requests
 
-mrequests.set_api_key("your_api_key")
-
-response = mrequests.get("https://example.com")
+mx_requests.set_api_key("your_api_key")
+response =mx_requests.get("https://example.com")
 print(response.text)
 ```
 
@@ -24,11 +24,9 @@ Behind the scenes, the URL is rewritten to:
 
 `https://proxy.montgomerynx.com/<your_api_key>/https://example.com`
 
-
 ## 🔐 API Key
 
-Call once `set_api_key("your_api_key")` before making requests. 
-
+Call once `set_api_key("your_api_key")` before making requests.
 
 ## ✨ Features
 
@@ -37,7 +35,6 @@ Call once `set_api_key("your_api_key")` before making requests.
 - Works with all HTTP methods: `get`, `post`, `put`, `delete`, `head`, `options`
 - No extra dependencies beyond `requests`
 - Perfect for scraping-friendly public sites
-
 
 ## 📜 Legal Notice
 

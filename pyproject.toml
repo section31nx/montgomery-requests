@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "montgomery_requests"
+name = "mx_requests"
 version = "0.1.0"
 description = "Drop-in requests replacement using MontgomeryNX proxy"
 authors = [
@@ -15,4 +15,4 @@ dependencies = ["requests"]
 requires-python = ">=3.7"
 
 [tool.setuptools]
-py-modules = ["montgomery_requests"]
+py-modules = ["mx_requests"]
