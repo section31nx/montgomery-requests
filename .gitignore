@@ -1,36 +1,6 @@
-# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environment
-.venv/
-venv/
-env/
-ENV/
-
-# Distribution / packaging
-build/
-dist/
+*.pyc
+*.pyo
 *.egg-info/
-
-# PyInstaller
-*.spec
-
-# Unit test / coverage
-.coverage
-htmlcov/
-.tox/
-.nox/
-.pytest_cache/
-
-# Editor directories and files
-.vscode/
-.idea/
-*.swp
-
-# MacOS
-.DS_Store
-
-# dotenv
-.env
+dist/
+build/
